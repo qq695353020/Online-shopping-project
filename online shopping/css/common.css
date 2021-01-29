@@ -1,5 +1,26 @@
-/* Website width */
+/* Website body width */
 .w {
     width: 1200px;
     margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.style_red {
+    color: #c81623;
+}
+/* Top navigation bar */
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+.shortcut li {
+    float: left;
+}
+.shortcut .fr ul li:nth-child(even) {
+    
 }
