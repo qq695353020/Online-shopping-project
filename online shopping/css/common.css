@@ -48,7 +48,6 @@
 .header {
     position: relative;
     height: 105px;
-    background-color: pink;
 }
 .logo {
     position: absolute;
@@ -64,4 +63,81 @@
     /* font-size: 0; not display the name of the website in logo */
     text-indent: -9999px;
     overflow: hidden;
+}
+/* Inuput and Search */
+.search {
+    position: absolute;
+    top: 25px;
+    left: 346px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+.search button {
+    float: left;
+    width: 80px;
+    height: 32px;
+    background-color: #b1191a;
+    font-size: 14px;
+    color: #fff;
+}
+.hotwords {
+    position: absolute;
+    top: 66px;
+    left: 346px;
+}
+.hotwords a {
+    margin: 0 10px;
+}
+/* Cart */
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 65px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    transition: all .5s ease-in-out;
+    color: #b1191a;
+}
+.shopcar::before {
+    content: '';
+    font-family: 'icomoon';
+    margin-right: 5px;
+}
+.shopcar::after {
+    content: '';
+    font-family: 'icomoon';
+    margin-left: 10px;
+}
+.shopcar:hover {
+    width: 150px;
+    height: 45px;
+    color: #fff;
+    background-color: #b1191a;
+    text-align: center;
+    line-height: 45px;
+    border: none;
+}
+/* number of item in the cart (8)*/
+.count {
+    position: absolute;
+    top: -10px;
+    left: 105px;
+    height: 14px;
+    line-height: 14px;
+    color: #fff;
+    background-color: #b1191a;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
 }
